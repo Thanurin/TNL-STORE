@@ -1,0 +1,54 @@
+#complete{
+    max-width:700px;
+    width:95%;
+    margin:auto;
+    padding:20px;
+    border-radius:25px;
+    background:white;
+    box-shadow:0 0 15px rgba(0,0,0,.15);
+}
+
+.box{
+    width:100%;
+    margin:10px 0;
+}
+
+#qr{
+    display:block;
+    margin:20px auto;
+    width:200px;
+    height:200px;
+}
+
+#send,
+#back{
+    width:45%;
+    height:50px;
+    border:none;
+    border-radius:15px;
+    cursor:pointer;
+    margin:10px;
+}
+
+#send{
+    background:#444;
+    color:white;
+}
+
+#back{
+    background:#777;
+    color:white;
+}
+
+@media(max-width:768px){
+
+    #send,
+    #back{
+        width:100%;
+        margin-top:10px;
+    }
+
+    #complete{
+        width:98%;
+    }
+}
